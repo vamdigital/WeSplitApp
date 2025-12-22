@@ -11,6 +11,7 @@ import SwiftUI
 struct WeSplitAppApp: App {
     var body: some Scene {
         WindowGroup {
+//            ContentViewExample()
             ContentView()
         }
     }
