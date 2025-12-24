@@ -60,6 +60,7 @@ struct ContentView: View {
                             Text($0, format: .percent)
                         }
                     }
+                    /** This is the style where you have small pills like shape buttons next to reach other which can be tapped */
                     .pickerStyle(.segmented)
                     
                 }
