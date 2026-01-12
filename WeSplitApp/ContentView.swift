@@ -73,6 +73,7 @@ struct ContentView: View {
                             code: Locale.current.currency?.identifier ?? "USD"
                         )
                     )
+                    .foregroundColor($tipPercentage.wrappedValue == 0 ? .red : .green)
                 }
             }
             .navigationTitle("WeSplit")
